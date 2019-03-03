@@ -11,11 +11,12 @@ GameObject:
   - component: {fileID: 1448938902202360461}
   - component: {fileID: 2146654331326487440}
   - component: {fileID: 7152883047619257236}
-  - component: {fileID: 4274962898335788218}
   - component: {fileID: 8496316210920585598}
+  - component: {fileID: 634821424665748115}
+  - component: {fileID: 3652083277673742146}
   m_Layer: 0
   m_Name: Peble
-  m_TagString: Untagged
+  m_TagString: Peble
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -29,7 +30,7 @@ Transform:
   m_GameObject: {fileID: 1727027527037332231}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: -0.11087635, y: -4.9366374, z: 14.6651745}
-  m_LocalScale: {x: 0.36106, y: 1, z: 1}
+  m_LocalScale: {x: 0.51057494, y: 1.4141, z: 1.4141}
   m_Children: []
   m_Father: {fileID: 0}
   m_RootOrder: 0
@@ -79,19 +80,6 @@ MeshRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
---- !u!135 &4274962898335788218
-SphereCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1727027527037332231}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_Enabled: 1
-  serializedVersion: 2
-  m_Radius: 0.5
-  m_Center: {x: 0, y: 0, z: 0}
 --- !u!54 &8496316210920585598
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -108,3 +96,28 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 0
   m_CollisionDetection: 0
+--- !u!65 &634821424665748115
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1727027527037332231}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 1, y: 0.99999994, z: 0.99999994}
+  m_Center: {x: 0, y: 0, z: 0}
+--- !u!114 &3652083277673742146
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1727027527037332231}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: cb46e077bbe5a7d49a275a0e307e5895, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 

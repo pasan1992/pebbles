@@ -1,0 +1,23 @@
+fileFormatVersion: 2
+guid: a1ab8d70dbf9b3c4bb20343e7c56598a
+TrueTypeFontImporter:
+  externalObjects: {}
+  serializedVersion: 4
+  fontSize: 50
+  forceTextureCase: -2
+  characterSpacing: 0
+  characterPadding: 1
+  includeFontData: 1
+  fontName: Praktika
+  fontNames:
+  - Praktika
+  fallbackFontReferences:
+  - {fileID: 12800000, guid: 43fdae9ddf906b64fa8ee09e2df86830, type: 3}
+  customCharacters: 
+  fontRenderingMode: 0
+  ascentCalculationMode: 1
+  useLegacyBoundsCalculation: 0
+  shouldRoundAdvanceValue: 1
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
